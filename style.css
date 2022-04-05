@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Custom Style*/
+body {
+    line-height: 1.5;
+}
+h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.navigation {
+    text-align: center;
+    font-size: 28px;
+    background-color: rgb(31, 31, 105);
+    padding: 15px;
+}
+.page-nav {
+    text-decoration: none;
+    margin: 14px;
+    color: white;
+}
+
+.exercise {
+font-size: 20px;
+margin: 15px;
+text-align: center;
+}
+.box {
+    background-color: #99D8CA;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 20px solid #5873e2;
+    outline: 10px solid #0D1430;
+    box-shadow: 0 0 0 30px #90FFA9;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+.circle-container {
+    text-align: center;
+    margin-top: 50px;
+
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #99D8CA;
+    vertical-align: middle;
+    margin-right: 8px; 
+}
+.second {
+background-color: #5873e2;
+}
+.third {
+    background-color: #0D1430;
+}
+.fourth {
+    background-color: #90FFA9;
+}
+.marker {
+    margin: 12px;
+    display: inline-block;
+}
+hr {
+    width: 600px;
+    border-style: dashed;
+}
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.big-box {
+    width: 660px;
+    border: 2px solid black;
+   margin: 0 auto;
+    font-size: 0;
+    margin: 30px auto; 
+    
+}
+.small-box {
+    width: 200px;
+    height: 180px;
+    background-color: rgb(187, 187, 246);
+    display: inline-block;
+    margin: 10px;
+}
+.border {
+    border: 2px solid black;
+    
+}
+.border-box {
+    box-sizing: border-box;
+}
+.main-container {
+    margin: 10px 10px;
+    width: 50%;
+}
+/*blog html*/
+h3 {
+    font-size: 20px;
+}
+
+.image-one {
+    vertical-align: top;
+    margin-left:20px;
+    width: 400px;
+}
+
+
+.first-paragraph {
+    display: inline-block;
+    width: 400px;
+}
+
+
+.image-two {
+    margin-left: 20px;
+    width: 400px;
+
+}
+.image-three {
+    margin-left: 20px;
+    width: 400px;
+}
+.second-container {
+    width: 400px;
+}
+.second-paragraph {
+    display: inline-block;
+    width: 400px;
+    margin-left: 20px;
+}
+.third-paragraph {
+    display: inline-block;
+    width: 400px;
+    margin-left: 20px;
+
+}
+.readmore {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #1f933a;
+    color: white;
+    border-radius: 8px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.learmore {
+    font-size: 20px;
+    color: #1f933a;
+}
+.first-section {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+  
+}
+.second-section {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    
+}
+.third-section {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    
+}
+ 
