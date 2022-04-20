@@ -96,6 +96,7 @@ text-align: center;
     background-color: #99D8CA;
     vertical-align: middle;
     margin-right: 8px; 
+    border: 2px solid black;
 }
 .second {
 background-color: #5873e2;
@@ -112,6 +113,7 @@ background-color: #5873e2;
 }
 hr {
     width: 600px;
+    text-decoration: none;
     border-style: dashed;
 }
 h2 {
